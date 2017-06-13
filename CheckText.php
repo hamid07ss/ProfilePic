@@ -264,7 +264,7 @@ function UsrTxt( $telegram ) {
 	file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
 
 
-	function sendPhoto( $chat_id, $img ) {
+	/*function sendPhoto( $chat_id, $img ) {
 		global $telegram;
 
 		$content = array(
@@ -275,7 +275,7 @@ function UsrTxt( $telegram ) {
 
 		$content = array( 'chat_id' => $chat_id, 'photo' => $img );
 		$telegram->sendPhoto( $content );
-	}
+	}*/
 
 	/**
 	 * @param $text
