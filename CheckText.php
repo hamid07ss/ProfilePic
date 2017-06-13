@@ -107,7 +107,7 @@ function CheckText( $text, $chat_id, $telegram ) {
 	}
 
 
-	file_put_contents( "functions/data.json", json_encode( $data ) );
+	file_put_contents( "functions/data.json", json_encode( $data, JSON_UNESCAPED_UNICODE ) );
 }
 
 function UsrTxt($telegram) {
@@ -463,7 +463,7 @@ function CheckId( $chat_id ) {
 	}
 
 
-	file_put_contents( "functions/data.json", json_encode( $data ) );
+	file_put_contents( "functions/data.json", json_encode( $data, JSON_UNESCAPED_UNICODE ) );
 }
 
 function remove( $chat_id ) {
@@ -479,5 +479,5 @@ function remove( $chat_id ) {
 	unset($data["all"][$chat_id]);
 
 
-	file_put_contents( "functions/data.json", json_encode( $data ) );
+	file_put_contents( "functions/data.json", json_encode( $data, JSON_UNESCAPED_UNICODE ) );
 }
