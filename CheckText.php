@@ -45,13 +45,13 @@ function CheckText( $text, $chat_id, $telegram ) {
 					"آمار و اطلاعات ربات تلگرام........
 					
 					تعداد کاربران:
-					" . count((array)$data->users) . "
+					" . count((array)$data["users"] ) . "
 					
 					تعداد سوپرگروه ها:
-					" . count( (array)$data->supergroups ) . "
+					" . count( (array)$data["supergroups"] ) . "
 					
 					تعداد گروه ها:
-					" . count( (array)$data->groups ) . "
+					" . count( (array)$data["groups"] ) . "
 					";
 				$content = array( 'chat_id' => $chat_id, 'text' => $panel );
 				$telegram->sendMessage( $content );
@@ -405,7 +405,7 @@ function UsrTxt($telegram) {
 function forward( $type, $data, $telegram, $chat_id, $result, $text ) {
 	global $keyb;
 	$sended = 0;
-	foreach ( $data->$type as $chatId=>$i ) {
+	foreach ( $data[$type] as $chatId=>$i ) {
 		$response = $telegram->forwardMessage( [
 			'chat_id'      => $chatId,
 			'from_chat_id' => $chat_id,
