@@ -276,129 +276,131 @@ function UsrTxt( $telegram ) {
 		$content = array( 'chat_id' => $chat_id, 'photo' => $img );
 		$telegram->sendPhoto( $content );
 	}*/
+	if (!function_exists('getPAT')) {
+		function getPAT( $text, $chat_id, $telegram ) {
+			global $data;
+			$p_id = $text;
 
-	/**
-	 * @param $text
-	 * @param $chat_id
-	 * @param $telegram
-	 */
-	function getPAT( $text, $chat_id, $telegram ) {
-		global $data;
-		$p_id = $text;
+			$data->user->$chat_id->pattern->id = $text;
+			$data->user->$chat_id->step        = 'names';
 
-		$data->user->$chat_id->pattern->id = $text;
-		$data->user->$chat_id->step        = 'names';
+			$result = DBFunctions( "namesCount", $p_id );
 
-		$result = DBFunctions( "namesCount", $p_id );
+			$content = array( 'chat_id' => $chat_id, 'photo' => "http://78.47.129.34/FinalImages/" . $p_id . '.png' );
+			$telegram->sendPhoto( $content );
+			$textforsend2 = '';
+			$textforsend  = '';
 
-		$content = array( 'chat_id' => $chat_id, 'photo' => "http://78.47.129.34/FinalImages/" . $p_id . '.png' );
-		$telegram->sendPhoto( $content );
-		$textforsend2 = '';
-		$textforsend  = '';
+			if ( ! $result ) {
+				$data->user->$chat_id->step = 'get pattern';
+				$textforsend                = 'الگو اشتباه است. لطفا الگوی صحیح را وارد کنید.';
+			} else {
+				$textforsend2 = 'اسم اول را وارد کنید';
 
-		if ( ! $result ) {
-			$data->user->$chat_id->step = 'get pattern';
-			$textforsend                = 'الگو اشتباه است. لطفا الگوی صحیح را وارد کنید.';
-		} else {
-			$textforsend2 = 'اسم اول را وارد کنید';
-
-			$textforsend = "الگو ذخیره شد
+				$textforsend = "الگو ذخیره شد
 		این الگو دارای " . $result . " اسم میباشد که باید وارد کنید.
 		";
 
-			$data->user->$chat_id->pattern->count = $result;
-			$data->user->$chat_id->pattern->names = [];
-		}
+				$data->user->$chat_id->pattern->count = $result;
+				$data->user->$chat_id->pattern->names = [];
+			}
 
 
-		$content = array(
-			'chat_id' => $chat_id,
-			'text'    => $textforsend
-		);
-
-		$telegram->sendMessage( $content );
-
-		file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
-
-		if ( $textforsend2 != '' ) {
 			$content = array(
 				'chat_id' => $chat_id,
-				'text'    => $textforsend2
+				'text'    => $textforsend
 			);
 
+			$telegram->sendMessage( $content );
+
+			file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
+
+			if ( $textforsend2 != '' ) {
+				$content = array(
+					'chat_id' => $chat_id,
+					'text'    => $textforsend2
+				);
+
+				$telegram->sendMessage( $content );
+
+				file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
+			}
+		}
+	}
+
+	if (!function_exists('sendToAdmin')) {
+		function sendToAdmin( $count, $telegram ) {
+			global $data;
+			$content = array(
+				'chat_id' => "93077939",
+				'text'    => "یک درخواست عکس جدید دریاف شد.\nتعداد کل درخواست های انجام نشده:\n" . $count
+				             . "\n" . "http://78.47.129.34/editor/reqList.php"
+			);
+			$telegram->sendMessage( $content );
+			$content = array(
+//		hamid
+//		93077939
+				'chat_id' => "91083286",
+				'text'    => "یک درخواست عکس جدید دریاف شد.\nتعداد کل درخواست های انجام نشده:\n" . $count
+				             . "\n" . "http://78.47.129.34/editor/reqList.php"
+			);
 			$telegram->sendMessage( $content );
 
 			file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
 		}
 	}
 
-	function sendToAdmin( $count, $telegram ) {
-		global $data;
-		$content = array(
-			'chat_id' => "93077939",
-			'text'    => "یک درخواست عکس جدید دریاف شد.\nتعداد کل درخواست های انجام نشده:\n" . $count
-			             . "\n" . "http://78.47.129.34/editor/reqList.php"
-		);
-		$telegram->sendMessage( $content );
-		$content = array(
-//		hamid
-//		93077939
-			'chat_id' => "91083286",
-			'text'    => "یک درخواست عکس جدید دریاف شد.\nتعداد کل درخواست های انجام نشده:\n" . $count
-			             . "\n" . "http://78.47.129.34/editor/reqList.php"
-		);
-		$telegram->sendMessage( $content );
+	if (!function_exists('call_DBFunctions')) {
+		function call_DBFunctions( $chat_id, $telegram ) {
+			global $data;
 
-		file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
+			$names = json_encode( $data->user->$chat_id->pattern->names, JSON_UNESCAPED_UNICODE );
+			$p_id  = $data->user->$chat_id->pattern->id;
+
+			$result = DBFunctions( "writeDB", $p_id, $chat_id, $names );
+
+			$content = array(
+				'chat_id' => $chat_id,
+				'text'    => "درخواست شما ثبت شد. تا ساعاتی دیگر تصویر مورد نظر برای شما ارسال خواهد شد."
+			);
+			$telegram->sendMessage( $content );
+
+			$data->user->$chat_id->Req = [
+				"count"    => $data->user->$chat_id->Req->count ? intval( $data->user->$chat_id->Req->count ) + 1 : 1,
+				"lastDate" => strtotime( date( "Y-m-d H:i:s",
+					mktime( 0, 0, 0 )
+				) )
+			];
+
+			sendToAdmin( $result, $telegram );
+
+			file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
+		}
 	}
 
-	function call_DBFunctions( $chat_id, $telegram ) {
-		global $data;
+	if (!function_exists('sendToSup')) {
+		function sendToSup() {
+			global $telegram;
 
-		$names = json_encode( $data->user->$chat_id->pattern->names, JSON_UNESCAPED_UNICODE );
-		$p_id  = $data->user->$chat_id->pattern->id;
-
-		$result = DBFunctions( "writeDB", $p_id, $chat_id, $names );
-
-		$content = array(
-			'chat_id' => $chat_id,
-			'text'    => "درخواست شما ثبت شد. تا ساعاتی دیگر تصویر مورد نظر برای شما ارسال خواهد شد."
-		);
-		$telegram->sendMessage( $content );
-
-		$data->user->$chat_id->Req = [
-			"count"    => $data->user->$chat_id->Req->count ? intval( $data->user->$chat_id->Req->count ) + 1 : 1,
-			"lastDate" => strtotime( date( "Y-m-d H:i:s",
-				mktime( 0, 0, 0 )
-			) )
-		];
-
-		sendToAdmin( $result, $telegram );
-
-		file_put_contents( 'functions/data.json', json_encode( $data, JSON_UNESCAPED_UNICODE ) );
-	}
-
-	function sendToSup() {
-		global $telegram;
-
-		$content = array(
-			//		hamid
-			'chat_id' => "93077939",
-			'text'    => "در ارتباط با ما یک پیام جدید دریافت شد.
+			$content = array(
+				//		hamid
+				'chat_id' => "93077939",
+				'text'    => "در ارتباط با ما یک پیام جدید دریافت شد.
 		لطفا برای پاسخ دهی به این آدرس مراجعه کنید.
 		http://78.47.129.34/functions/support.php
 		"
-		);
-		$telegram->sendMessage( $content );
-		$content = array(
-			//		zeynab
-			'chat_id' => "91083286",
-			'text'    => "در ارتباط با ما یک پیام جدید دریافت شد.
+			);
+			$telegram->sendMessage( $content );
+			$content = array(
+				//		zeynab
+				'chat_id' => "91083286",
+				'text'    => "در ارتباط با ما یک پیام جدید دریافت شد.
 		لطفا برای پاسخ دهی به این آدرس مراجعه کنید.
 		http://78.47.129.34/functions/support.php
 		"
-		);
-		$telegram->sendMessage( $content );
+			);
+			$telegram->sendMessage( $content );
+		}
 	}
 }
 
