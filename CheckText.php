@@ -8,7 +8,7 @@ $option = array(
 // Get the keyboard
 $keyb    = '';
 
-function CheckText( $text, $chat_id, $telegram, $botId ) {
+function CheckText( $text, $chat_id, $telegram ) {
 	global $data, $option, $keyb;
 	$data = json_decode( file_get_contents( "functions/data.json" ) );
 	$botchatid = array("389905657", "388860778", "395307709", "332060339", "363459410");
@@ -28,13 +28,13 @@ function CheckText( $text, $chat_id, $telegram, $botId ) {
 		$admin = $chat_id;
 	}
 
-	if ( isset($result["message"]["left_chat_participant"]) && $result["message"]["left_chat_participant"]["id"] ==  $botchatid[$botId - 1]) {
-		remove($chat_id, $botId);
+	if ( isset($result["message"]["left_chat_participant"]) && $result["message"]["left_chat_participant"]["id"] == "246405229" ) {
+		remove($chat_id);
 
 		return false;
 	}
 
-	if ( isset($result["message"]["new_chat_participant"]) && $result["message"]["new_chat_participant"]["id"] ==  $botchatid[$botId - 1] ) {
+	if ( isset($result["message"]["new_chat_participant"]) && $result["message"]["new_chat_participant"]["id"] == "246405229"  ) {
 		CheckId( $result["message"]["chat"]["id"] );
 	}
 
@@ -466,7 +466,7 @@ function CheckId( $chat_id ) {
 	file_put_contents( "functions/data.json", json_encode( $data ) );
 }
 
-function remove( $chat_id, $botId) {
+function remove( $chat_id ) {
 	global $data;
 	if ( preg_match( '/^(\d+)$/', $chat_id ) ) {
 		unset($data->users->$chat_id);
