@@ -38,7 +38,7 @@ function CheckText( $text, $chat_id, $telegram ) {
 		CheckId( $result["message"]["chat"]["id"] );
 	}
 
-	if ( isset( $data->admins->$admin ) ) {
+	if ( isset( $data["admins"][$admin] ) ) {
 		switch ( $text ) {
 			case '/panel':
 				$panel   =
@@ -415,10 +415,10 @@ function forward( $type, $data, $telegram, $chat_id, $result, $text ) {
 		if ( $response["ok"] == 1 ) {
 			$sended ++;
 		}else{
-			unset($data->all->$chatId);
-			unset($data->users->$chatId);
-			unset($data->supergroups->$chatId);
-			unset($data->groups->$chatId);
+			unset($data["all"][$chatId]);
+			unset($data["users"][$chatId]);
+			unset($data["supergroups"][$chatId]);
+			unset($data["groups"][$chatId]);
 		}
 	}
 	$msg     = "ارسال به "
@@ -469,14 +469,14 @@ function CheckId( $chat_id ) {
 function remove( $chat_id ) {
 	global $data;
 	if ( preg_match( '/^(\d+)$/', $chat_id ) ) {
-		unset($data->users->$chat_id);
+		unset($data["users"][$chat_id]);
 	} else if ( preg_match( '/^-100/', $chat_id ) ) {
-		unset($data->supergroups->$chat_id);
+		unset($data["supergroups"][$chat_id]);
 	} else {
-		unset($data->groups->$chat_id);
+		unset($data["groups"][$chat_id]);
 	}
 
-	unset($data->all->$chat_id);
+	unset($data["all"][$chat_id]);
 
 
 	file_put_contents( "functions/data.json", json_encode( $data ) );
