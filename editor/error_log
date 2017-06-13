@@ -1,0 +1,258 @@
+[01-Feb-2017 15:25:53 UTC] PHP Notice:  Undefined index: file in /home/kalshopi/public_html/editor/picReq.php on line 36
+[01-Feb-2017 15:25:53 UTC] PHP Warning:  file_get_contents(../FinalImages/.txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/picReq.php on line 36
+[06-Feb-2017 09:32:30 UTC] PHP Notice:  Undefined variable: query in /home/kalshopi/public_html/editor/reqList.php on line 13
+[06-Feb-2017 09:32:30 UTC] PHP Warning:  mysqli_query(): Empty query in /home/kalshopi/public_html/editor/reqList.php on line 13
+[06-Feb-2017 09:32:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:32:39 UTC] PHP Notice:  Undefined variable: query in /home/kalshopi/public_html/editor/reqList.php on line 13
+[06-Feb-2017 09:32:39 UTC] PHP Warning:  mysqli_query(): Empty query in /home/kalshopi/public_html/editor/reqList.php on line 13
+[06-Feb-2017 09:32:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:02 UTC] PHP Notice:  Undefined variable: query in /home/kalshopi/public_html/editor/reqList.php on line 13
+[06-Feb-2017 09:33:02 UTC] PHP Warning:  mysqli_query(): Empty query in /home/kalshopi/public_html/editor/reqList.php on line 13
+[06-Feb-2017 09:33:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:17 UTC] PHP Notice:  Undefined variable: query in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:17 UTC] PHP Warning:  mysqli_query(): Empty query in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kalshopi/public_html/editor/reqList.php on line 17
+[06-Feb-2017 09:33:36 UTC] PHP Notice:  Undefined variable: query in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:36 UTC] PHP Warning:  mysqli_query(): Empty query in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kalshopi/public_html/editor/reqList.php on line 17
+[06-Feb-2017 09:33:38 UTC] PHP Notice:  Undefined variable: query in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:38 UTC] PHP Warning:  mysqli_query(): Empty query in /home/kalshopi/public_html/editor/reqList.php on line 15
+[06-Feb-2017 09:33:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kalshopi/public_html/editor/reqList.php on line 17
+[06-Feb-2017 09:34:20 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/kalshopi/public_html/editor/reqList.php on line 16
+[06-Feb-2017 09:34:22 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/kalshopi/public_html/editor/reqList.php on line 16
+[06-Feb-2017 09:34:25 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/kalshopi/public_html/editor/reqList.php on line 16
+[06-Feb-2017 09:34:25 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/kalshopi/public_html/editor/reqList.php on line 16
+[06-Feb-2017 09:34:26 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/kalshopi/public_html/editor/reqList.php on line 16
+[06-Feb-2017 09:34:44 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 19
+[06-Feb-2017 09:34:44 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 19
+[06-Feb-2017 09:34:44 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 19
+[06-Feb-2017 09:37:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 20
+[06-Feb-2017 09:37:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 20
+[06-Feb-2017 09:37:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 20
+[06-Feb-2017 09:37:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 20
+[06-Feb-2017 09:37:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/kalshopi/public_html/editor/reqList.php on line 20
+[06-Feb-2017 09:37:35 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:35 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:35 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:35 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:35 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 22
+[06-Feb-2017 09:37:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:37:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:37:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:37:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:37:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:10 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:10 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:10 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:10 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:10 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:31 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:31 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:31 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:31 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 23
+[06-Feb-2017 09:39:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 24
+[06-Feb-2017 09:39:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 24
+[06-Feb-2017 09:39:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 24
+[06-Feb-2017 09:39:55 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 24
+[06-Feb-2017 09:47:53 UTC] PHP Warning:  include(../FinalImages/PAT123 ): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:47:53 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 ' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:47:53 UTC] PHP Warning:  include(../FinalImages/PAT123 ): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:47:53 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 ' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:47:53 UTC] PHP Warning:  include(../FinalImages/PAT123 ): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:47:53 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 ' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:26 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:26 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:26 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:26 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:26 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:26 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:30 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:30 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:30 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:30 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:30 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:30 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:56 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:56 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:56 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:56 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:56 UTC] PHP Warning:  include(../FinalImages/PAT123 .txt): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:48:56 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123 .txt' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 28
+[06-Feb-2017 09:52:19 UTC] PHP Warning:  include(../FinalImages/PAT123.txt
+        &lt;/div&gt;
+        &lt;div class=&quot;chat_id&quot;&gt;
+            93077939
+        &lt;/div&gt;
+        &lt;div class=&quot;req-texts&quot;&gt;
+            
+			&lt;div class=&quot;text&quot;&gt;
+			 حمید 
+			&lt;/div&gt;
+		
+			&lt;div class=&quot;text&quot;&gt;
+			 زینبسس
+			&lt;/div&gt;
+		
+        &lt;/div&gt;
+    &lt;/div&gt;
+	): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 40
+[06-Feb-2017 09:52:19 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123.txt
+        &lt;/div&gt;
+        &lt;div class=&quot;chat_id&quot;&gt;
+            93077939
+        &lt;/div&gt;
+        &lt;div class=&quot;req-texts&quot;&gt;
+            
+			&lt;div class=&quot;text&quot;&gt;
+			 حمید 
+			&lt;/div&gt;
+		
+			&lt;div class=&quot;text&quot;&gt;
+			 زینبسس
+			&lt;/div&gt;
+		
+        &lt;/div&gt;
+    &lt;/div&gt;
+	' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 40
+[06-Feb-2017 09:52:19 UTC] PHP Warning:  include(../FinalImages/PAT123.txt
+        &lt;/div&gt;
+        &lt;div class=&quot;chat_id&quot;&gt;
+            93077939
+        &lt;/div&gt;
+        &lt;div class=&quot;req-texts&quot;&gt;
+            
+			&lt;div class=&quot;text&quot;&gt;
+			 حمید 
+			&lt;/div&gt;
+		
+			&lt;div class=&quot;text&quot;&gt;
+			 زینبسس
+			&lt;/div&gt;
+		
+        &lt;/div&gt;
+    &lt;/div&gt;
+	): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 40
+[06-Feb-2017 09:52:19 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123.txt
+        &lt;/div&gt;
+        &lt;div class=&quot;chat_id&quot;&gt;
+            93077939
+        &lt;/div&gt;
+        &lt;div class=&quot;req-texts&quot;&gt;
+            
+			&lt;div class=&quot;text&quot;&gt;
+			 حمید 
+			&lt;/div&gt;
+		
+			&lt;div class=&quot;text&quot;&gt;
+			 زینبسس
+			&lt;/div&gt;
+		
+        &lt;/div&gt;
+    &lt;/div&gt;
+	' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 40
+[06-Feb-2017 09:52:19 UTC] PHP Warning:  include(../FinalImages/PAT123.txt
+        &lt;/div&gt;
+        &lt;div class=&quot;chat_id&quot;&gt;
+            93077939
+        &lt;/div&gt;
+        &lt;div class=&quot;req-texts&quot;&gt;
+            
+			&lt;div class=&quot;text&quot;&gt;
+			 حمید 
+			&lt;/div&gt;
+		
+			&lt;div class=&quot;text&quot;&gt;
+			 زینبسس
+			&lt;/div&gt;
+		
+        &lt;/div&gt;
+    &lt;/div&gt;
+	): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 40
+[06-Feb-2017 09:52:19 UTC] PHP Warning:  include(): Failed opening '../FinalImages/PAT123.txt
+        &lt;/div&gt;
+        &lt;div class=&quot;chat_id&quot;&gt;
+            93077939
+        &lt;/div&gt;
+        &lt;div class=&quot;req-texts&quot;&gt;
+            
+			&lt;div class=&quot;text&quot;&gt;
+			 حمید 
+			&lt;/div&gt;
+		
+			&lt;div class=&quot;text&quot;&gt;
+			 زینبسس
+			&lt;/div&gt;
+		
+        &lt;/div&gt;
+    &lt;/div&gt;
+	' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/kalshopi/public_html/editor/reqList.php on line 40
+[06-Feb-2017 10:42:32 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:42:32 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:42:32 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:43:44 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:43:44 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:43:44 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:43:51 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:43:51 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:43:51 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:10 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:10 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:10 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:45:14 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:46:06 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:46:06 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 10:46:06 UTC] PHP Warning:  file_get_contents(../FinalImages/PAT123.png): failed to open stream: No such file or directory in /home/kalshopi/public_html/editor/reqList.php on line 37
+[06-Feb-2017 11:55:23 UTC] PHP Notice:  Undefined index: names in /home/kalshopi/public_html/editor/picReq.php on line 212
+[06-Feb-2017 11:57:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 53
+[06-Feb-2017 11:57:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 53
+[06-Feb-2017 11:57:02 UTC] PHP Notice:  Array to string conversion in /home/kalshopi/public_html/editor/reqList.php on line 53
+[25-Feb-2017 11:01:55 UTC] PHP Notice:  Undefined index: chat_id in /home/kalshopi/public_html/editor/picReq.php on line 42
+[25-Feb-2017 11:01:55 UTC] PHP Notice:  Undefined index: id in /home/kalshopi/public_html/editor/picReq.php on line 42
+[25-Feb-2017 11:01:55 UTC] PHP Notice:  Undefined index: names in /home/kalshopi/public_html/editor/picReq.php on line 200
+[25-Feb-2017 11:25:29 UTC] PHP Notice:  Undefined index: file in /home/kalshopi/public_html/editor/picReq.php on line 38
+[25-Feb-2017 11:25:29 UTC] PHP Notice:  Undefined index: chat_id in /home/kalshopi/public_html/editor/picReq.php on line 42
+[25-Feb-2017 11:25:29 UTC] PHP Notice:  Undefined index: names in /home/kalshopi/public_html/editor/picReq.php on line 200
+[25-Feb-2017 11:25:38 UTC] PHP Notice:  Undefined index: names in /home/kalshopi/public_html/editor/picReq.php on line 200
+[28-Feb-2017 10:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function delete() in /home/kalshopi/public_html/editor/delete.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/kalshopi/public_html/editor/delete.php on line 10
+[28-Feb-2017 10:26:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function delete() in /home/kalshopi/public_html/editor/delete.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/kalshopi/public_html/editor/delete.php on line 10
+[28-Feb-2017 10:26:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function delete() in /home/kalshopi/public_html/editor/delete.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/kalshopi/public_html/editor/delete.php on line 10
+[28-Feb-2017 10:26:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function delete() in /home/kalshopi/public_html/editor/delete.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/kalshopi/public_html/editor/delete.php on line 11
+[28-Feb-2017 10:27:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function delete() in /home/kalshopi/public_html/editor/delete.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/kalshopi/public_html/editor/delete.php on line 11
+[28-Feb-2017 10:29:04 UTC] PHP Warning:  unlink(../uploads/logoname-fateme-todelia-14.jpg): No such file or directory in /home/kalshopi/public_html/editor/delete.php on line 11

@@ -1,0 +1,3 @@
+
+    <img class="picture" src="http://78.47.129.34/uploads/1449092329524180.jpeg">
+  <div class="text-field-saved" style="top: 9px;left: 296px;width: 196px;height: 99px;text-align: center;font-size: 65px;color: rgb(241, 0, 255);"><p style="font-size: 65px;"><strong style="font-size: 65px;"><span style="font-family: BZiba;font-size: 65px;">اسم اول</span></strong></p></div><div class="text-field-saved" style="top: 96px;left: 56px;width: 325px;height: 119px;font-size: 65px;text-align: center;color: rgb(0, 68, 255);"><p><strong><span style="font-family: BZiba;">اسم دوم</span></strong></p></div><div class="text-field-image" style="top: 35px; left: 157px; width: 242px; height: 233px;"><p><img src="../uploads/logo.png" alt="" width="235" height="238"></p></div>

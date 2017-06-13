@@ -1,0 +1,26 @@
+
+    <img class="picture" src="http://78.47.129.34/uploads/logo.png" style="
+    transform: rotateX(-3deg) rotateY(38deg) rotateZ(-18deg) rotate3d(2, 0, 0, 25deg);
+    position: relative;
+    top: -204px;
+    opacity: 0.6;
+    left: -40px;
+">
+<div class="text-field-saved" style="top: 97px; left: 127px; width: 555px; height: 289px; font-size: 172px; transform: rotateX(-3deg) rotateY(38deg) rotateZ(-18deg) rotate3d(2, 0, 0, 25deg);     text-shadow: 
+    -1px 1px 0 #ffffff, 
+    -2px 2px 0 #fefefe,
+    -3px 3px 0 #efefef,
+    -4px 4px 0 #ececec,
+    -5px 5px 0 #d2d2d2,
+    -6px 6px 0 #d4d4d4,
+    -7px 7px 0 #c3c3c3,
+    -8px 8px 0 #c4c4c4,
+    -9px 9px 0 #9c9c9c,
+    -10px 10px 0 #b0b0b0,
+    -11px 11px 0 #8e8e8e,
+    -12px 12px 0 #8f8f8f,
+    -13px 13px 0 #6e6e6e,
+    -14px 14px 0 #6d6d6d,
+    -15px 15px 0 #6e6e6e,
+    -16px 16px 0 #595959;
+    color: red;" data-text="اسم اول"><p style="text-align: center;"><span style="font-family: khat-khati;">اسم اول</span></p></div>

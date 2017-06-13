@@ -1,0 +1,4 @@
+
+	
+    <img class="picture" src="http://78.47.129.34/uploads/photo_2017-02-15_14-52-16.jpg">
+<div class="text-field-image" style="top: 20px; left: 401px; width: 29px; height: 0px; text-align: center; transform: rotate(90deg);"><p><img src="../uploads/own_logo.png" alt="logo" width="300" height="15"></p></div><div class="text-field-saved" style="top: 188px; left: 260px; width: 160px; height: 65px; font-size: 39px; color: rgb(222, 23, 176); text-align: center;"><p style="font-size: 39px;">اسم اول</p></div><div class="text-field-saved" style="top: 204px; left: 10px; width: 142px; height: 65px; font-size: 39px; color: rgb(23, 101, 222);"><p>اسم دوم</p></div>
